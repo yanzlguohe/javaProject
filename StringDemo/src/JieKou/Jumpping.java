@@ -1,7 +1,7 @@
 package JieKou;
 
-public class Jumpping {
-    public void jump(){
-        System.out.println("跳");
-    }
+public interface Jumpping {
+    public int num = 10 ;
+    final public int age = 20;
+    public abstract void jump();
 }
